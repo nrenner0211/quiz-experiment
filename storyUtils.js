@@ -1,3 +1,5 @@
+//input functionality
+
 const fs = require('fs');
 const path = require('path');
 

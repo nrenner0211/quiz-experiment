@@ -1,3 +1,5 @@
+// functionality for elements on the page (button, input)
+
 const wordField = document.getElementById("word");
 const addButton = document.getElementById("add");
 const storyText = document.getElementById("story");

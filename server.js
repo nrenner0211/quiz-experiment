@@ -1,8 +1,10 @@
+// need to refactor and move routes into separate file
+
 const express = require("express");
 const {formatHtml} = require("./formatHtml");
 const {addWord, getStory} = require("./storyUtils");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
